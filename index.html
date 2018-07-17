@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<title>Quiz</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="welcome">
+        <h1>Witaj !</h1>
+        <h2 id="welh2"></h2> <!-- Number of questions set by js -->
+        <h2>Lorem ipsum dolor sit amet, consectetur <b>1</b> Lorem ipsum dolor sit amet, consectetur</h2>
+        <h2>Lorem ipsum dolor sit amet, consectetur <b>Lorem ipsum dolor sit amet, consectetur</b> Lorem ipsum dolor sit amet, consectetur</h2>
+        <h2>Lorem ipsum dolor sit amet, consectetur <b>:)</b></h2>
+        <button id="start">START!</button>
+    </div>
+
+
+    <div class="quiz">    
+        <div class="question">
+            <h1 id="q-name"></h1>
+            <ul id="answers">
+                <li><input type="checkbox" id="chbx1" class="answer1"><p id="p1" class="answer1"></p></li>
+                <li><input type="checkbox" id="chbx2" class="answer2"><p id="p2" class="answer2"></p></li>
+                <li><input type="checkbox" id="chbx3" class="answer3"><p id="p3" class="answer3"></p></li>
+                <li><input type="checkbox" id="chbx4" class="answer4"><p id="p4" class="answer4"></p></li>
+            </ul>
+        </div>
+        <div class="end-test">
+            <button id="btn">Dalej</button>
+        </div>    
+    </div>
+
+    <div class="end">
+        <h1 id="end-message"></h1>
+        <img id="low-points" src="https://images-na.ssl-images-amazon.com/images/I/711NDQNFqxL.png">
+        <img id="middle-points" src="http://www.artmini.pl/pol_pl_Pduszka-jasiek-Grimacing-EMOJI-EMOTICON-EMOTKA-pod-3109-896_4.jpg">
+        <img id="high-points" src="https://cdn.pixabay.com/photo/2013/07/18/10/56/smiley-163510_640.jpg">
+        <img id="perfect-points" src="https://i.pinimg.com/originals/4e/5c/f7/4e5cf7d4ccb9c59b6620a9c71944d51e.png">
+    </div>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html> 
