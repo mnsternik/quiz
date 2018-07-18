@@ -1,69 +1,69 @@
 const questions = [
     q1 = {
-        name: 'Lorem ipsum dolor sit amet, consectetur',
-        a: 'Lorem ipsum dolor sit amet, consectetur' ,
-        b: 'Lorem ipsum dolor sit amet, consectetur',
-        c: 'Lorem ipsum dolor sit amet, consectetur',
-        d: 'Lorem ipsum dolor sit amet, consectetur',
-        correct: 'Lorem ipsum dolor sit amet, consectetur'
+        name: 'Zasoby, które musza być zamapowane do wystawienia sesji HP to:',
+        a: 'F, I, S' ,
+        b: 'F, I, R',
+        c: 'F, I',
+        d: 'F, I, K',
+        correct: 'F, I'
     },
 
     q2 = {
-        name: 'Lorem ipsum dolor sit amet, consectetur',
-        a: 'Lorem ipsum dolor sit amet, consectetur',
-        b: 'Lorem ipsum dolor sit amet, consectetur',
-        c: 'Lorem ipsum dolor sit amet, consectetur',
-        d: 'Lorem ipsum dolor sit amet, consectetur',
-        correct: 'Lorem ipsum dolor sit amet, consectetur'
+        name: 'W przypadku niezgodności lub braku danych w zleceniu na nadanie uprawnień, do kogo zlecenie jest odsyłane z prośba o uzupełnienie:',
+        a: 'Dział Uprawnień',
+        b: 'Dział Bezpieczeństwa',
+        c: 'Helpdesk',
+        d: 'Do osoby zlecającej',
+        correct: 'Dział Bezpieczeństwa'
     },
 
     q3 = {
-        name: 'Lorem ipsum dolor sit amet, consectetur',
-        a: 'Lorem ipsum dolor sit amet, consectetur',
-        b: 'Lorem ipsum dolor sit amet, consectetur', 
-        c: 'Lorem ipsum dolor sit amet, consectetur',
-        d: 'DLorem ipsum dolor sit amet, consectetur',
-        correct: 'Lorem ipsum dolor sit amet, consectetur'
+        name: 'Podczas realizowania zlecenia z ofertowaniem, które z grup mogą być stworzone w jednym pliku:',
+        a: 'PP i PPA4',
+        b: 'PP i Standard', 
+        c: 'PPA4 i Standard',
+        d: 'Dla każdej grupy musi być osobny plik',
+        correct: 'PP i Standard'
     },
 
     q4 = {
-        name: 'Lorem ipsum dolor sit amet, consectetur',
-        a: 'Lorem ipsum dolor sit amet, consectetur', 
-        b: 'Lorem ipsum dolor sit amet, consectetur', 
-        c: 'Lorem ipsum dolor sit amet, consectetur', 
-        d: 'Lorem ipsum dolor sit amet, consectetur',
-        correct: 'Lorem ipsum dolor sit amet, consectetur'
+        name: 'Jakimi poświadczeniami logujemy się na serwer WROP3APP24?',
+        a: 'Domeny PL', 
+        b: 'Domeny AIGPRDAS', 
+        c: 'Domeny AIGCRBG', 
+        d: 'Loginem i hasłem dla starych aplikacji',
+        correct: 'Domeny AIGCRBG'
     },
 
     q5 = {
-        name: 'Lorem ipsum dolor sit amet, consectetur',
-        a: 'Lorem ipsum dolor sit amet, consectetur',
-        b: '4Lorem ipsum dolor sit amet, consectetur',
-        c: 'Lorem ipsum dolor sit amet, consectetur',
-        d: 'Lorem ipsum dolor sit amet, consectetur',
-        correct: 'Lorem ipsum dolor sit amet, consectetur'
+        name: 'Jaka jest godzina graniczna startu I Sprawozdawczości, po przekroczeniu której należy zgłosić opóźnienie w ICBSsie?',
+        a: '6:00',
+        b: '4:30',
+        c: '5:30',
+        d: '5:45',
+        correct: '5:45'
     },
 
     q6 = {
-        name: 'Lorem ipsum dolor sit amet, consectetur?',
-        a: 'Lorem ipsum dolor sit amet, consectetur',
-        b: 'Lorem ipsum dolor sit amet, consectetur',
-        c: 'Lorem ipsum dolor sit amet, consectetur',
-        d: 'Lorem ipsum dolor sit amet, consectetur',
-        correct: 'Lorem ipsum dolor sit amet, consectetur'
+        name: 'Na jakim serwerze znajduje się baza SQL_CRU?',
+        a: 'wrop2sql65',
+        b: 'wrop2sql63',
+        c: 'wrop2sql75',
+        d: 'wrop2sql73',
+        correct: 'wrop2sql73'
     },
 
     q7 = {
-        name: 'Lorem ipsum dolor sit amet, consectetur',
-        a: 'Lorem ipsum dolor sit amet, consectetur',
-        b: 'Lorem ipsum dolor sit amet, consectetur',
-        c: 'Lorem ipsum dolor sit amet, consectetur', 
-        d: 'Lorem ipsum dolor sit amet, consectetur', 
-        correct: 'Lorem ipsum dolor sit amet, consectetur'
+        name: 'Które z wymienionych alarmów w aplikacji DataPumpMonitor należy zgłosić na HelpDesk?',
+        a: 'Uruchomienie CL',
+        b: 'Wiadomość E-mail',
+        c: 'Autoryzacja kart', 
+        d: 'Transakcja analityczna', 
+        correct: 'Uruchomienie CL'
     },
 
     q8 = {
-        name: 'Lorem ipsum dolor sit amet, consectetur',
+        name: 'Jaka jest wartość procentowa zajętości systemu ASP, po przekroczeniu której należy ja zgłosić  Administratorom AS400?',
         a: '75%',
         b: '80%',
         c: '85%',
@@ -72,7 +72,7 @@ const questions = [
     },
 
     q9 = {
-        name: 'Lorem ipsum dolor sit amet, consectetur',
+        name: 'O której godzinie zaczytywanie jest zapytanie pakietowe BIK?',
         a: '19:00',
         b: '19:10',
         c: '19:30',
@@ -81,12 +81,12 @@ const questions = [
     },
 
     q10 = {
-        name: 'Lorem ipsum dolor sit amet, consectetur?',
-        a: 'Lorem ipsum dolor sit amet, consectetur',
-        b: 'Lorem ipsum dolor sit amet, consectetur',
-        c: 'Lorem ipsum dolor sit amet, consecteturLorem ipsum dolor sit amet, consecteturH',
-        d: 'Lorem ipsum dolor sit amet, consectetur',
-        correct: 'Lorem ipsum dolor sit amet, consectetur'
+        name: 'W jakim podsystemie w ICBSie widzimy zalogowanych użytkowników?',
+        a: 'QINTER',
+        b: 'QMQM',
+        c: 'QBATCH',
+        d: 'QUSERS',
+        correct: 'QINTER'
     },
 ];
 
@@ -103,7 +103,7 @@ $(document).ready(function(){
    let p2 = document.getElementById('p2'); 
    let p3 = document.getElementById('p3'); 
    let p4 = document.getElementById('p4');  
-   let welh2 = document.getElementById('welh2');
+   let welh2 = document.getElementById('welcome-h2');
 
    let anwsers = [p1, p2, p3, p4]; 
    let chbxs = [chbx1, chbx2, chbx3, chbx4]; 
@@ -121,7 +121,7 @@ $(document).ready(function(){
             if (chbxs[i].checked) {
                 let checkedChbxClass = chbxs[i].className;
                 let checkedAnswer = document.getElementsByClassName(checkedChbxClass)[1].innerHTML;
-                //both parapgrahp and checkbox has the same class. CheckedChbxClass[1] return paragraph with its inner HTML, which is then compared with correct answers.
+                //both parapgrahp and checkbox has the same class. CheckedChbxClass[1] return paragraph with its inner HTML, which is then compared to correct answer.
                 if (checkedAnswer === questions[current].correct) {
                     points ++;
                 }
@@ -147,7 +147,7 @@ $(document).ready(function(){
         return (points / questions.length) * 100
     }
 
-    let finalScore = function() {
+    let getFinalScore = function() {
         let endMessage = document.getElementById('end-message');
         if (getPointsPercent() < 50) {
             endPoints = `Twój wynik to ${getPointsPercent()}%. Popraw się!`;
@@ -165,26 +165,26 @@ $(document).ready(function(){
         endMessage.innerHTML = endPoints;
     }
 
-    let makeEnd = function() {
+    let displayEnd = function() {
         $('.quiz').css('display', 'none'); 
         $('.end').css('display', 'flex');
-        finalScore();
+        getFinalScore();
         $('.end').addClass('endDone');
     }
 
-    $('#btn').click(function() {
+    $('#start').click(function(){
+        $('.welcome').addClass('disappear'); 
+        $('.quiz').addClass('appear');
+    })
+
+    $('#next-step').click(function() {
         testAnswer();
         console.log(current);
-        if (current == 9 ) { makeEnd() } 
+        if (current == 9 ) { displayEnd() } 
         else { 
             current++; 
             clearCheckboxes();
             nextQuestion(); 
         }      
-    })
-
-    $('#start').click(function(){
-        $('.welcome').addClass('disappear'); 
-        $('.quiz').addClass('appear');
     })
 })
