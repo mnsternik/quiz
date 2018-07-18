@@ -26,13 +26,13 @@ body {
     padding: 0 2px;
 }
 
-.end-test {
+.nxt-stp {
     display: flex;
     justify-content: center;
     margin-top: 2em;
 }
 
-#btn {
+#next-step, #start {
     height: 4em;
     width: 10em;
     font-size: 20px;
@@ -46,20 +46,15 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.quiz {
-    display: none;
-}
-
-/* Welcome section */
-
-.welcome {
-    text-align: center;
+.welcome, .endDone {
     width: 75%;
-    margin: auto;
+    margin: 5em auto;
+    text-align: center;
 }
 
-.welcome h1 {
-    margin: 3em 0;
+.welcome h1, #q-name {
+    margin: 2em auto;
+    width: 80%;
 }
 
 .welcome h2 {
@@ -67,27 +62,7 @@ body {
     font-weight: 200;
 }
 
-#start {
-    height: 4em;
-    width: 10em;
-    font-size: 20px;
-    background: rgb(211, 72, 72);
-    color: rgb(245, 237, 237); 
-    border: 1px solid rgba(49, 48, 48, 0.658);
-    -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-    cursor: pointer;
-    font-family: 'Montserrat', sans-serif;
-
-}
-
-#q-name {
-    width: 80%;
-    margin: 2em auto;
-}
-
-.disappear {
+.disappear, img, .quiz {
     display: none; 
 }
 
@@ -95,20 +70,9 @@ body {
     display: block;
 }
 
-/* END SECTION */
-
 .end {
     display: none; 
     justify-content: center;
-}
-.endDone {
-    width: 75%;
-    margin: 5em auto;
-    text-align: center;
-}
-
-img {
-    display: none;
 }
 
 input {
