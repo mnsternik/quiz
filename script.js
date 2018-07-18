@@ -1,6 +1,6 @@
 const questions = [
     q1 = {
-        name: 'Zasoby, które musza być zamapowane do wystawienia sesji HP to:',
+        name: 'Lorem ipsum dolor sit amet',
         a: 'F, I, S' ,
         b: 'F, I, R',
         c: 'F, I',
@@ -9,34 +9,34 @@ const questions = [
     },
 
     q2 = {
-        name: 'W przypadku niezgodności lub braku danych w zleceniu na nadanie uprawnień, do kogo zlecenie jest odsyłane z prośba o uzupełnienie:',
-        a: 'Dział Uprawnień',
-        b: 'Dział Bezpieczeństwa',
-        c: 'Helpdesk',
-        d: 'Do osoby zlecającej',
-        correct: 'Dział Bezpieczeństwa'
+        name: 'Lorem ipsum dolor sit amet',
+        a: 'DLorem ipsum dolor sit amet',
+        b: 'Lorem ipsum dolor sit amet',
+        c: 'Lorem ipsum dolor sit ametk',
+        d: 'Lorem ipsum dolor sit amet',
+        correct: 'Lorem ipsum dolor sit amet'
     },
 
     q3 = {
-        name: 'Podczas realizowania zlecenia z ofertowaniem, które z grup mogą być stworzone w jednym pliku:',
-        a: 'PP i PPA4',
-        b: 'PP i Standard', 
-        c: 'PPA4 i Standard',
-        d: 'Dla każdej grupy musi być osobny plik',
-        correct: 'PP i Standard'
+        name: 'Lorem ipsum dolor sit ametdnLorem ipsum dolor sit amet:',
+        a: 'Lorem ipsum dolor sit amet',
+        b: 'PLorem ipsum dolor sit amet', 
+        c: 'PLorem ipsum dolor sit amet',
+        d: 'Lorem ipsum dolor sit amet',
+        correct: 'Lorem ipsum dolor sit amet'
     },
 
     q4 = {
-        name: 'Jakimi poświadczeniami logujemy się na serwer WROP3APP24?',
-        a: 'Domeny PL', 
-        b: 'Domeny AIGPRDAS', 
-        c: 'Domeny AIGCRBG', 
-        d: 'Loginem i hasłem dla starych aplikacji',
-        correct: 'Domeny AIGCRBG'
+        name: 'Lorem ipsum dolor sit amet?',
+        a: 'Lorem ipsum dolor sit ametL', 
+        b: 'Lorem ipsum dolor sit amet', 
+        c: 'Lorem ipsum dolor sit amet', 
+        d: 'Lorem ipsum dolor sit amet',
+        correct: 'Lorem ipsum dolor sit amet'
     },
 
     q5 = {
-        name: 'Jaka jest godzina graniczna startu I Sprawozdawczości, po przekroczeniu której należy zgłosić opóźnienie w ICBSsie?',
+        name: 'Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet',
         a: '6:00',
         b: '4:30',
         c: '5:30',
@@ -45,25 +45,25 @@ const questions = [
     },
 
     q6 = {
-        name: 'Na jakim serwerze znajduje się baza SQL_CRU?',
-        a: 'wrop2sql65',
-        b: 'wrop2sql63',
-        c: 'wrop2sql75',
-        d: 'wrop2sql73',
-        correct: 'wrop2sql73'
+        name: 'Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet?',
+        a: 'Lorem ipsum dolor sit amet',
+        b: 'Lorem ipsum dolor sit amet',
+        c: 'Lorem ipsum dolor sit amet',
+        d: 'Lorem ipsum dolor sit amet',
+        correct: 'Lorem ipsum dolor sit amet'
     },
 
     q7 = {
-        name: 'Które z wymienionych alarmów w aplikacji DataPumpMonitor należy zgłosić na HelpDesk?',
-        a: 'Uruchomienie CL',
-        b: 'Wiadomość E-mail',
-        c: 'Autoryzacja kart', 
-        d: 'Transakcja analityczna', 
-        correct: 'Uruchomienie CL'
+        name: 'Lorem ipsum dolor sit amet  ipsum dolor sit amet?',
+        a: 'Lorem ipsum dolor sit amet',
+        b: 'Lorem ipsum dolor sit amet',
+        c: 'Lorem ipsum dolor sit amet', 
+        d: 'TLorem ipsum dolor sit amet', 
+        correct: 'Lorem ipsum dolor sit amet'
     },
 
     q8 = {
-        name: 'Jaka jest wartość procentowa zajętości systemu ASP, po przekroczeniu której należy ja zgłosić  Administratorom AS400?',
+        name: 'Lorem ipsum dolor sit amet?',
         a: '75%',
         b: '80%',
         c: '85%',
@@ -72,7 +72,7 @@ const questions = [
     },
 
     q9 = {
-        name: 'O której godzinie zaczytywanie jest zapytanie pakietowe BIK?',
+        name: 'Lorem ipsum dolor sit amet',
         a: '19:00',
         b: '19:10',
         c: '19:30',
@@ -81,12 +81,12 @@ const questions = [
     },
 
     q10 = {
-        name: 'W jakim podsystemie w ICBSie widzimy zalogowanych użytkowników?',
-        a: 'QINTER',
-        b: 'QMQM',
-        c: 'QBATCH',
-        d: 'QUSERS',
-        correct: 'QINTER'
+        name: 'Lorem ipsum dolor sit amet?',
+        a: 'Lorem ipsum dolor sit ametR',
+        b: 'Lorem ipsum dolor sit amet',
+        c: 'Lorem ipsum dolor sit amet',
+        d: 'Lorem ipsum dolor sit amet',
+        correct: 'Lorem ipsum dolor sit amet'
     },
 ];
 
