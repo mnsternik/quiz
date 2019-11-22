@@ -165,7 +165,7 @@
 
     function showNextQuestion() {
         testAnswer();
-        if (currentQuestion == 9) { showEnd() } 
+        if (currentQuestion === (questions.length -1)) { showEnd() } 
         else { 
             currentQuestion++; 
             clearCheckboxes();
