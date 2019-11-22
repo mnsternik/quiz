@@ -9,30 +9,51 @@ body {
     line-height: 1.6; 
 }
 
-.quiz-section {
-    display: none;
+h1,
+h4 {
+    margin: 2em auto;
+    font-size: 28px;
+    width: 80%;
+    text-align: center;
 }
 
-.question {
+h3 {
+    font-weight: 600 !important;
+}
+
+h2, 
+h3 {
+    font-size: 22px;
+    font-weight: 200;
+}
+
+input {
+    height: 1.5em;
+    width: 1.5em;
+}
+
+ /* -------- classes -------- */
+
+.quiz-section {
+    display: none;
     width: 100%;
     text-align: center;
 }
 
-.question ul {
+.answers {
     list-style: none;
     padding: 0;
     margin: auto;
     display: inline;
 }
 
-.question ul p, 
-.question ul input {
+[class^="answer-"] {
     display: inline-block;
     padding: 0 2px;
 }
 
-#next-btn, 
-#start-btn {
+.next-btn, 
+.start-btn {
     height: 4em;
     width: 10em;
     display: block;
@@ -49,25 +70,16 @@ body {
 }
 
 .start-section, 
-.endDone {
+.end-section,
+.end-img {
     width: 75%;
-    margin: 5em auto;
+    margin: 0 auto;
     text-align: center;
 }
 
-.start-section h1 {
-    margin: 2em auto;
-    width: 80%;
-}
-
-.start-section h2 {
-    font-size: 22px;
-    font-weight: 200;
-}
-
-.disappear, 
-img, 
-.quiz-section {
+.disappear,
+.end-section,
+.end-img {
     display: none; 
 }
 
@@ -79,11 +91,3 @@ img,
     display: flex;
 }
 
-.end-section {
-    display: none; 
-}
-
-input {
-    height: 1.5em;
-    width: 1.5em;
-}
