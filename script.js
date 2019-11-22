@@ -93,6 +93,7 @@
     
     let currentQuestion = 0; 
     let points = 0; 
+    let score; 
 
     let question = document.getElementById('question'); 
     let checkbox_1 = document.getElementById('checkbox-1'); 
@@ -178,17 +179,17 @@
  
     function getFinalScore() {
         if (getPointsPercent() < 50) { 
-            endPoints = `Your score is ${getPointsPercent()}%. Pretty bad!`; 
+            score = `Your score is ${getPointsPercent()}%. Pretty bad!`; 
             lowScoreImg.classList.add('appear-block');
         } else if (getPointsPercent() < 75) { 
-            endPoints = `Your score is ${getPointsPercent()}%. Not bad, but could be better!`;
+            score = `Your score is ${getPointsPercent()}%. Not bad, but could be better!`;
             middleScoreImg.classList.add('appear-block');
         } else if  (getPointsPercent() < 99) { 
-            endPoints = `Your score is ${getPointsPercent()}%. Good job!`;
+            score = `Your score is ${getPointsPercent()}%. Good job!`;
             highScoreImg.classList.add('appear-block');
-        }  else { endPoints = `Your score is ${getPointsPercent()}%. Perfect!`;
+        }  else { score = `Your score is ${getPointsPercent()}%. Perfect!`;
             perfectScoreImg.classList.add('appear-block'); }  
-        endMessage.innerHTML = endPoints;
+        endMessage.innerHTML = score;
     }
  
     function showEnd() {
