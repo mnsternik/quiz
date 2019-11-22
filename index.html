@@ -15,37 +15,34 @@
 <body>
 
     <section class="start-section" id="start-section">
-        <h1>Lorem Ipsum</h1>
+        <h1>JavaScript Quiz</h1>
         <h2 id="question-quantity-header"></h2> <!-- Number of questions set by js -->
-        <h2>W każdym pytaniu poprawna jest tylko <b>1</b> Odpowiedź.</h2>
-        <h2>Czas na zastanowienie się nad każdym pytaniem to <b>20 sekund.</b> Jeżeli w tym czasie nie odpowiesz, przechodzisz do kolejengo pytania bez punktu.</h2>
-        <button id="start-btn" class="start-btn">START!</button>
+        <h2>Only <b>1</b> answer is correct.</h2>
+        <button id="start-btn" class="start-btn">I'M READY!</button>
     </section>
 
 
     <section class="quiz-section" id="quiz-section">    
-        <div class="question">
-            <h1 id="question"></h1>
-            <ul id="answers">
-                <li><input type="checkbox" id="checkbox-1" class="answer-1"><p id="answer-1" class="answer-1"></p></li>
-                <li><input type="checkbox" id="checkbox-2" class="answer-2"><p id="answer-2" class="answer-2"></p></li>
-                <li><input type="checkbox" id="checkbox-3" class="answer-3"><p id="answer-3" class="answer-3"></p></li>
-                <li><input type="checkbox" id="checkbox-4" class="answer-4"><p id="answer-4" class="answer-4"></p></li>
-            </ul>
-        </div>
+        <h3 id="question"></h3>
+        <ul id="answers" class="answers">
+            <li><input type="checkbox" id="checkbox-1" class="answer-1"><p id="answer-1" class="answer-1"></p></li>
+            <li><input type="checkbox" id="checkbox-2" class="answer-2"><p id="answer-2" class="answer-2"></p></li>
+            <li><input type="checkbox" id="checkbox-3" class="answer-3"><p id="answer-3" class="answer-3"></p></li>
+            <li><input type="checkbox" id="checkbox-4" class="answer-4"><p id="answer-4" class="answer-4"></p></li>
+        </ul>
 
-        <button id="next-btn" class="next-btn">Dalej</button>
+        <button id="next-btn" class="next-btn">Next</button>
 
     </section>
 
     <section class="end-section" id="end-section">
-        <h1 id="end-message"></h1>
-        <img id="low-points" src="https://images-na.ssl-images-amazon.com/images/I/711NDQNFqxL.png">
-        <img id="middle-points" src="http://www.artmini.pl/pol_pl_Pduszka-jasiek-Grimacing-EMOJI-EMOTICON-EMOTKA-pod-3109-896_4.jpg">
-        <img id="high-points" src="https://cdn.pixabay.com/photo/2013/07/18/10/56/smiley-163510_640.jpg">
-        <img id="perfect-points" src="https://i.pinimg.com/originals/4e/5c/f7/4e5cf7d4ccb9c59b6620a9c71944d51e.png">
+        <h4 id="end-message"></h4>
+        <img id="low-score" class="end-img" src="https://images-na.ssl-images-amazon.com/images/I/711NDQNFqxL.png">
+        <img id="middle-score" class="end-img" src="http://www.artmini.pl/pol_pl_Pduszka-jasiek-Grimacing-EMOJI-EMOTICON-EMOTKA-pod-3109-896_4.jpg">
+        <img id="high-score" class="end-img" src="https://cdn.pixabay.com/photo/2013/07/18/10/56/smiley-163510_640.jpg">
+        <img id="perfect-score" class="end-img" src="https://i.pinimg.com/originals/4e/5c/f7/4e5cf7d4ccb9c59b6620a9c71944d51e.png">
     </section>
-
+   
 <script type="text/javascript" src="script.js"></script>
 
 </body>
